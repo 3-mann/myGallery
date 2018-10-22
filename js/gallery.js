@@ -1,13 +1,10 @@
 $(function() {
-    /* ======================= imagesLoaded Plugin ===============================
-    // https://github.com/desandro/imagesloaded
-    // $('#my-container').imagesLoaded(myFunction)
-    // execute a callback when all images have loaded.
-    // needed because .load() doesn't work on cached images
-    // callback function gets image collection as argument
-    //  this is the container
-    // original: mit license. paul irish. 2010.
-    // contributors: Oren Solomianik, David DeSandro, Yiannis Chatzikonstantinou*/
+    /* $('#my-container').imagesLoaded(myFunction)
+    * execute a callback when all images are loaded.
+    * needed because .load() doesn't work on cached images
+    * callback function gets image collection as argument
+    * this is the "container"
+    *  */
     $.fn.imagesLoaded 		= function( callback ) {
     var $images = this.find('img'),
         len 	= $images.length,

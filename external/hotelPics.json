@@ -1,0 +1,32 @@
+{
+    "hote":[
+        {
+            "prefix"            :"<a href='#'><img src='",
+            "path"              :"images/thumbs/",
+            "image"             :"1.jpg",
+            "data-large"        :"' ",
+            "data-description"  :""
+        },
+        {
+            "name":"json programmieren",
+            "erledigt":false
+        },
+        {
+            "name":"json testen",
+            "erledigt":false
+        },
+        {
+            "name":"json einbinden",
+            "erledigt":false
+        },
+        {
+            "name":"json vertiefen",
+            "erledigt":false
+        },
+        {
+            "name":"json verwenden",
+            "erledigt":false
+        }
+        
+    ]
+}
