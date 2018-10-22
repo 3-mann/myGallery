@@ -2,8 +2,12 @@
 
 /* General Codrops Demo Style */
 body{
-	background:#1F1F1F url(../images/pattern.png) repeat top left;
-	color:#fff;
+	/*background:#1F1F1F url(../images/pattern.png) repeat top left;*/
+	background:#1F1F1F url(../hotel/2.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;color:#fff;
 	font-family: 'PT Sans Narrow', Arial, sans-serif;
 	font-size:14px;
 }
