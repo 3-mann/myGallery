@@ -116,11 +116,13 @@
             $.get('external/hotel.html',function(data){
                 $('#picContainer').html(data);
             });
+            Galery.init();
         });
         $('#picRooms').on('click',function(){
             $.get('external/zimmer.html',function(data){
                 $('#picContainer').html(data);
             });
+            Gallery.init();
         });
     </script>
 </body>
