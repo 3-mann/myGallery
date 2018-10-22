@@ -103,8 +103,8 @@
         </div><!-- content -->
     </div><!-- container -->
     <div>
-        <button id="picRooms">Bilder vom der Hotelzimmern</button>
-        <button id="picHotel">Bilder vom den Hotellanlage</button>
+        <button id="picHotel">Bilder vom der Hotellanlage</button>
+        <button id="picRooms">Bilder vom den Hotelzimmern</button>
         <button id="goBack">...bloß weg hier!</button>
     </div>
     <script src="js/jquery_1.7.1_min.js" type="text/javascript"></script>
@@ -113,12 +113,12 @@
     <script type="text/javascript" src="js/jquery.elastislide.js"></script>
     <script type="text/javascript" src="js/gallery.js"></script>
     <script>
-        $('#picHotel').on('click',function(){
+        $('#picHotel').click(function(){
             $.get('external/hotel.html',function(data){
                 $('#picContainer').html(data);
             });    
         });
-        $('#picHotel').on('click',function(){
+        $('#picRooms').click(function(){
             $.get('external/zimmer.html',function(data){
                 $('#picContainer').html(data);
             });

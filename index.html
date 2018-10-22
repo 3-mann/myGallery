@@ -104,7 +104,7 @@
     </div><!-- container -->
     <div>
         <button id="picRooms">Bilder vom der Hotelzimmern</button>
-        <button id="picHotel">Bilder vom den Hotellanlage</button>
+        <button id="callGrottig">...zur grottigen Lösung</button>
     </div>
     <script src="js/jquery_1.7.1_min.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
@@ -115,11 +115,8 @@
         $('#picRooms').click(function(){
             window.location = 'rooms.html';
         });
-        $('#picHotel').on('click',function(){
-            $.get('external/zimmer.html',function(data){
-                $('#picContainer').html(data);
-            });
-            
+        $('#callGrottig').click(function(){
+            window.location = 'grottig.html';
         });
     </script>
 </body>
