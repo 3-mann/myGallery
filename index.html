@@ -64,7 +64,7 @@
                             <span class="es-nav-next">Next</span>
                         </div>
                         <div class="es-carousel">
-                            <ul id='picContainer' >
+                            <ul id='picContainer' style="width: 1368px; display: block; margin-left: -149px;">
                                 <li><a href="#"><img src="hotel/thumbs/1.jpg" data-large="hotel/1.jpg" alt="image01" 
                                     data-description="Hier einige Bilder vom Hotel und der Umgebung"/></a>
                                 </li>
@@ -116,13 +116,13 @@
             $.get('external/hotel.html',function(data){
                 $('#picContainer').html(data);
             });
-            Galery.init();
+            
         });
         $('#picRooms').on('click',function(){
             $.get('external/zimmer.html',function(data){
                 $('#picContainer').html(data);
             });
-            Gallery.init();
+            
         });
     </script>
 </body>
