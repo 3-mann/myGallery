@@ -1,0 +1,11 @@
+{
+    "hote":[
+        {
+            "prefix"            :"<a href='#'><img src='",
+            "path"              :"images/thumbs/",
+            "image"             :"1.jpg",
+            "data-large"        :"' ",
+            "data-description"  :""
+        }     
+    ]
+}
