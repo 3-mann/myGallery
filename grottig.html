@@ -115,12 +115,16 @@
     <script>
         $('#picHotel').click(function(){
             $.get('external/hotel.html',function(data){
-                $('#picContainer').html(data);
+                $('body').html(data);
+                //$('my-gallery').empty();    //('.myImageWrapper');
+                //$('body').html($('body').html());
             });    
         });
         $('#picRooms').click(function(){
             $.get('external/zimmer.html',function(data){
-                $('#picContainer').html(data);
+                $('body').html(data);
+                //$('my-gallery').empty();  // ('.myImageWrapper');
+                //$('body').html($('body').html());
             });
         });
         $('#goBack').click(function(){
